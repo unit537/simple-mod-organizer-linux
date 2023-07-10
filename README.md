@@ -20,9 +20,12 @@ In your Steam library, navigate to the game you want to use Mod Organizer 2 with
 Note that this line is specifically structured to trick steam into launching ModOrganizer.exe instead of your game's exe. In this case, I am 'replacing' "FalloutNVLauncher.exe" (located in the game's base directory) with "/Mod.Organizer-2.4.4\/ModOrganizer.exe" (located inside the "Mod.Organizer-2.4.4" folder that is inside of the base game's directory). Be sure to replace "FalloutNVLauncher.exe" with the exe of your game!
 
 So we'll launch
-  ../steamapps/common/Fallout New Vegas/Mod.Organizer-2.4.4/ModOrganizer.exe
+
+> ../steamapps/common/Fallout New Vegas/Mod.Organizer-2.4.4/ModOrganizer.exe
+
 Instead of
-  ../steamapps/common/Fallout New Vegas/FalloutNVLauncher.exe
+
+> ../steamapps/common/Fallout New Vegas/FalloutNVLauncher.exe
 
 ## Making "Mod Manager Download" start downloads with Mod Organizer 2
 
