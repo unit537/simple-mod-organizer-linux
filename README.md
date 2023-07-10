@@ -15,7 +15,7 @@ As of 2023-07-09, you'll want the `Mod.Organizer-2.4.4.7z` file. Extract this ar
 
 In your Steam library, navigate to the game you want to use Mod Organizer 2 with. Right click the game, click "Properties" and enter the following line (modify as needed) into the "Launch Options":
 
-  eval $( echo "%command%" | sed "s/FalloutNVLauncher.exe'.*/Mod.Organizer-2.4.4\/ModOrganizer.exe'/")
+> eval $( echo "%command%" | sed "s/FalloutNVLauncher.exe'.*/Mod.Organizer-2.4.4\/ModOrganizer.exe'/")
 
 Note that this line is specifically structured to trick steam into launching ModOrganizer.exe instead of your game's exe. In this case, I am 'replacing' "FalloutNVLauncher.exe" (located in the game's base directory) with "/Mod.Organizer-2.4.4\/ModOrganizer.exe" (located inside the "Mod.Organizer-2.4.4" folder that is inside of the base game's directory). Be sure to replace "FalloutNVLauncher.exe" with the exe of your game!
 
