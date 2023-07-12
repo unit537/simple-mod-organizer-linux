@@ -32,7 +32,9 @@ Instead of
 
 > ../steamapps/common/Fallout New Vegas/FalloutNVLauncher.exe
 
-## Making "Mod Manager Download" start downloads with Mod Organizer 2
+## Making "Mod Manager Download" button start downloads with Mod Organizer 2
+
+This section covers how to make the "Mod Manager Download" button on NexusMods ([https://nexusmods.com/](https://nexusmods.com/)) work with your web browser in linux.
 
 ### Modify the broker script
 
