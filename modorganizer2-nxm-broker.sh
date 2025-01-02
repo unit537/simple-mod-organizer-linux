@@ -7,11 +7,11 @@
 ### MO2 COMPAT GAME INSTALL PATHS ###
 mo2_dir_name="ModOrganizer2"
 
-starfield_path="/run/media/jack/NVMeGamesLib1/SteamLibrary/steamapps/common/Starfield"
-skyrimse_path="/run/media/jack/NVMeGamesLib1/SteamLibrary/steamapps/common/Skyrim Special Edition"
-fallout4_path="/run/media/jack/NVMeGamesLib1/SteamLibrary/steamapps/common/Fallout 4"
-newvegas_path="/run/media/jack/NVMeGamesLib1/SteamLibrary/steamapps/common/Fallout New Vegas"
-cyberpunk_path="/run/media/jack/NVMeGamesLib1/SteamLibrary/steamapps/common/Cyberpunk 2077"
+starfield_path="/nvmegameslib1/SteamLibrary/steamapps/common/Starfield"
+skyrimse_path="/nvmegameslib1/SteamLibrary/steamapps/common/Skyrim Special Edition"
+fallout4_path="/nvmegameslib1/SteamLibrary/steamapps/common/Fallout 4"
+newvegas_path="/nvmegameslib1/SteamLibrary/steamapps/common/Fallout New Vegas"
+cyberpunk_path="/nvmegameslib1/SteamLibrary/steamapps/common/Cyberpunk 2077"
 
 ### STEAM APP IDS ###
 starfield_appid=1716740
