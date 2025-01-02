@@ -21,7 +21,7 @@ Extract this archive into a folder named `ModOrganizer2`, and move this folder i
 
 In your Steam library, navigate to the game you want to use Mod Organizer 2 with. Right click the game, click "Properties" and enter the following line (modify as needed) into the "Launch Options":
 
-> eval $(echo "protonhax init %command%" | sed "s/Fallout4Launcher.exe'.*/ModOrganizer2\/ModOrganizer.exe'/")
+> eval $(echo "protonhax init %command%" | sed 's+Fallout4Launcher.exe+/ModOrganizer2/ModOrganizer.exe+g')
 
 Note that this line is specifically structured to trick steam into launching ModOrganizer.exe instead of your game's exe!
 
